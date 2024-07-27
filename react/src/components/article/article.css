@@ -1,0 +1,47 @@
+article {
+  margin-top: 5rem;
+}
+
+.article-date {
+  font-size: 2.6rem;
+  color: var(--secondary-color);
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+
+.article-title {
+  font-size: 4.6rem;
+  margin-top: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.img-container {
+  margin-top: 2rem;
+}
+
+.article-text::first-letter {
+  font-size: 8rem;
+  color: var(--secondary-color);
+  float: left;
+  font-weight: 600;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+.article-text {
+  font-size: 2.4rem;
+  line-height: 1.4;
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+.article-continues {
+  font-size: 2.4rem;
+  margin-top: 3rem;
+  float: right;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+.article-2 {
+  margin-bottom: 4rem;
+}
