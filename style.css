@@ -1,0 +1,32 @@
+:root {
+  --primary-color: ##df4339;
+  --secondary-color: ##808080;
+  --shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  cursor: default;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
